@@ -24,6 +24,7 @@ dkcp <source> <destination_dir> --name <desired_dir_name>
 - **Safe file copying:** By default, `dkcp` does not overwrite existing files and currently does not have a flag to do so.
 - **Uses easy to remember arguments:** The same command is used to copy a file or a folder to a directory with no need to use `-r`, but the only difference is when using the `--name` argument, where for files you specify your desired file name and extension, and for folders you just specify the folder name.
 - **Written in Rust:** Offers fast copying speeds, but slightly slower than `cp`, although with the added benefits listed above.
+- **Zero dependencies:** Due to the already established pattern my other projects have followed, I've done the same with dkcp, such that it's not bloated.
 
 ## Here's an example of how it'll look when you copy a file to a directory (with time included) - compared with GNU `cp`:
 
