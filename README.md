@@ -7,6 +7,7 @@ This is a custom file and directory copy program that copies a file or directory
 ```bash
 git clone https://github.com/Darethan026/dkcp.git && cd dkcp && cargo build --release && sudo cp target/release/dkcp /usr/local/bin
 ```
+Or you could get the respective binary for your system (64 bit Windows 10/11 or Linux) on the releases page
 
 ## How to use:
 
