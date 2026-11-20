@@ -1,0 +1,10 @@
+[package]
+name = "dkcp"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+
+[profile.release]
+strip = true
+lto = true
