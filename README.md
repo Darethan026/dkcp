@@ -2,6 +2,8 @@
 
 This is a custom file and directory copy program that copies a file or directory to a specified destination. When writing the source and destination, ensure that they exist, otherwise an error will be returned.
 
+[dkcp_win10_ISO_copy.webm](https://github.com/user-attachments/assets/ba7e0276-51fd-4185-8bca-cab3371eaae4)
+
 ## Installation
 
 ```bash
